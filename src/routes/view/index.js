@@ -8,8 +8,8 @@ const {
 
 const router = Router();
 
-router.get("/", renderHome);
 router.get("/feedback", renderFeedback);
+router.get("/", renderHome);
 router.get("*", renderError);
 
 module.exports = router;
